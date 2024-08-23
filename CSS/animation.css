@@ -1,0 +1,23 @@
+@keyframes logoNeon {
+    0% {
+        filter: grayscale(100%) drop-shadow(0 0 5px #590E31);
+    }
+    50% {
+        filter: grayscale(50%) drop-shadow(0 0 9px #F22973);
+    }
+    100% {
+        filter: grayscale(100%) drop-shadow(0 0 5px #590E31);
+    }
+}
+
+@keyframes divisorNeon {
+    0%{
+        box-shadow: 0 0 5px #590e31;
+    }
+    50%{
+        box-shadow: 0 0 15px #f22973;
+    }
+    100%{
+        box-shadow: 0 0 5px #590e31;
+    }
+}
